@@ -75,7 +75,7 @@ def main(argv=None):
                      "aic_mod":1,
                      "write_covariance":False,
                      "do_foregrounds":False,
-                     "project_fg":False,
+                     "project_fg":True,
                      "weights_dir":"",
                      "masking":False,
                      "mask_file":"",
