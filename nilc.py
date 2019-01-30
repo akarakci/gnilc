@@ -1,6 +1,3 @@
-#!/home/tt/local/anaconda3/bin/python
-
-
 import sys
 import gc
 import os
