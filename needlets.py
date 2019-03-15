@@ -685,14 +685,7 @@ def lower_powerof2(number) :
     if number <= 0 :
         print('No power of 2 lower than number')
     elif number < 1 :
-        n = 1./number
-        cont = 1
-        val = 1
-        while cont == 1 :
-            if val >= n :
-                cont = 0
-            val = 2*val
-        return 2./val
+        return 1./lower_powerof2(1./number)/2
     else :
      n = number
      cont = 1
