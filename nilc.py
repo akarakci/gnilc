@@ -4,21 +4,16 @@ import os
 import shutil
 import numpy as np
 import healpy as hp
-
 import scipy.linalg as lng
-
 import needlets as ndl
-
-import time
-
 import argparse
+import time
+import json
 
 try:
     import configparser
 except ImportError:
     import ConfigParser as configparser
-
-import json
 
 
 def main(argv=None):
