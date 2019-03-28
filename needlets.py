@@ -1,21 +1,8 @@
 import sys
 import numpy as np
 import healpy as hp
-
 import argparse
-
-import scipy.linalg as lng
-
 from numpy.linalg import pinv
-from scipy.fftpack import fft2
-from scipy.fftpack import ifft2
-
-from scipy import *
-import scipy as sc
-from scipy import sparse
-import scipy.sparse.linalg as spla
-from scipy import signal
-
 
 
 ### CONSTRUCT A GAUSSIAN BEAM OF SIZE FWHM
